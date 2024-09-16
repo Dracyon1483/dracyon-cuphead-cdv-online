@@ -1,4 +1,4 @@
 # cuphead-cdv-web
 Browser version of Cuphead CDV
-Originally madeby andrewdevcup
+Originally made by andrewdevcup
 
