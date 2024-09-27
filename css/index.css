@@ -32,4 +32,8 @@ body {
     padding:0px;
     width:100%;
 	overflow:hidden;
+	/* Add this to your css/index.css file */
+    margin: 0;
+    overflow: hidden;
+}
 }
