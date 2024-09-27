@@ -36,3 +36,24 @@
         <!-- Body content will be dynamically inserted via JavaScript if needed -->
     </body>
 </html>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        <link rel="shortcut icon" href="favicon.png" type="image/png" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1.0, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        
+        <!-- Add error handling to each script -->
+        <script src="cordova.js" onerror="console.error('Error loading cordova.js')"></script>
+        <script src='js/index.js' onerror="console.error('Error loading index.js')"></script>
+        <script src='js/console.js' onerror="console.error('Error loading console.js')"></script>
+    </head>
+    <body>
+    </body>
+</html>
+
